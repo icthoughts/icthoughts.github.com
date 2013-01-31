@@ -1,0 +1,114 @@
+$max-width: 800px;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: $font-default;
+	font-weight: 400;
+	font-size: 20px;
+	background: $color-background;
+	color: $color-gray01;
+	@media screen and (max-width: 1040px){
+		margin: 0 20px;
+	}
+	@media screen and (max-width: 600px){
+		font-size: 13px;
+	}
+}
+b {
+	font-weight: 700;
+}
+h1{
+	font-family: $font-sans;
+	font-size: 3em;
+	font-weight: 900;
+}
+h2{
+	font-family: $font-sans;
+	font-size: 1.5em;
+	font-weight: 900;
+}
+h3{
+	font-family: $font-sans;
+	font-size: 1.25em;
+	font-weight: 900;
+}
+a{
+	text-decoration: none;
+	outline-width: 0;
+	color: $color-link;
+}
+a:hover{
+	color: $color-link-hover;
+}
+.alignleft{
+	float: left;
+}
+.alignright{
+	float: right;
+}
+.clearfix{
+	@include pie-clearfix;
+}
+.inner{
+	width: $max-width;
+	margin: 0 auto;
+	@media screen and (max-width: 1040px){
+		width: 100%;
+	}
+}
+.sans {
+	font-family: $font-sans;
+	font-size: 1em;
+}
+.light, .sans.light {
+	font-weight: 300;
+	color: $color-gray06;
+}
+time:before {
+	content: "\f073";
+	font: 1em $font-icon;
+	font-weight: 300;
+	line-height: 2em;
+	left: 0;
+	margin-right: 5px;
+}
+time {
+	line-height: 2em;
+}
+
+.glyph {
+	font: 1em $font-icon;
+}
+
+.glyph.external-link {
+	font-size: 0.75em;
+}
+
+article.post:after {
+	content: "\f10c";
+	font: 1.5em $font-icon;
+	font-weight: 300;
+	display: block;
+	margin: 30px auto 30px;
+	color: $color-gray04;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+div#content {
+	padding-top: 30px;
+}
+
+span.date {
+	line-height: 1em;
+	font-size: 0.75em;
+	color: $color-gray06;
+}
+
+span.permalink {
+	font-size: 0.75em;
+}
