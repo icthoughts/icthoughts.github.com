@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ICThoughts]]></title>
+  <link href="http://icthoughts.github.com/atom.xml" rel="self"/>
+  <link href="http://icthoughts.github.com/"/>
+  <updated>2013-01-31T16:28:01+01:00</updated>
+  <id>http://icthoughts.github.com/</id>
+  <author>
+    <name><![CDATA[Lars Lockefeer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Mac Lego &rArr;]]></title>
+    <link href="http://www.flickr.com/photos/powerpig/8412086698/"/>
+    
+    <updated>2013-01-28T17:58:00+01:00</updated>
+    <id>http://icthoughts.github.com/2013/mac-lego</id>
+    <content type="html"><![CDATA[<p>If only today&#8217;s kids would know what a PC was like these days, without a touch screen and all that&#8230;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Hello world]]></title>
+    <link href="http://icthoughts.github.com/2013/hello-world/"/>
+    
+    <updated>2013-01-28T17:21:00+01:00</updated>
+    <id>http://icthoughts.github.com/2013/hello-world</id>
+    <content type="html"><![CDATA[<p>Welcome to the ICThoughts blog. Since we at ICThoughts constantly think about ICT, this blog will occasionally publish a post on an ICT-related subject. In addition, we will now and then link to other stuff on the web that we think is worth reading. Such links are marked with a glyph and will not be included in the archives.</p>
+
+<p>As our interest in ICT covers a wide spectrum including both hardware and software and &#8216;business&#8217; topics as well as &#8216;development&#8217; topics, the subjects of our posts may vary greatly. Nonetheless, we hope you will enjoy your stay with us, and would love to see you back. Of course, you can always contact us by sending us an <a href="mailto:blog@icthoughts.com" class="noblank">email</a>!</p>
+]]></content>
+  </entry>
+  
+</feed>

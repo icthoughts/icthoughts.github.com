@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://icthoughts.github.com/sitemap.xml 
